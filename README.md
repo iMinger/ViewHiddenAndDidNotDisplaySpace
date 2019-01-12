@@ -1,4 +1,4 @@
-# iOS 流式布局（UI组件隐藏可设置不占位置）
+# iOS UI组件隐藏可设置不占位置
 
 注：本库借鉴自[ViewHidden](https://github.com/wangyin1/ViewHidden)
 ## 背景
