@@ -45,17 +45,14 @@
             continue;
         }
         
-        UIView *referencedView;
-        
-        if(isFirstItem) {// 当targetview 是要进行约束的视图，那么被参照视图就是secondItem.
-            referencedView = constraint.secondItem;
-        }
-        
-        if(referencedView == targetView.superview) { // 如果参照父视图,那么这一个约束要保留，因为相对父视图的位置要让下一个控件继续沿用。
-            continue;
-        }
-        
-        if(!referencedView) {  // 如果被参照视图为nil ,那么该约束情况只有一种就是设置宽高的约束。我们要将该约束值改为0
+        //targetview 是被约束的视图
+        if (isFirstItem){
+            NSLayoutAttribute attribute = constraint.firstAttribute;
+            if (attribute == NSLayoutAttributeWidth ||
+                attribute == NSLayoutAttributeHeight) {
+                constraint.collapsed = targetView.hiddenAndDidNotDisplaySpace;
+            }
+        } else {  //targetview 是被参照视图
             constraint.collapsed = targetView.hiddenAndDidNotDisplaySpace;
         }
     }
