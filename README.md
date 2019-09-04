@@ -1,6 +1,5 @@
 # iOS UI组件隐藏可设置不占位置
 
-注：本库借鉴自[ViewHidden](https://github.com/wangyin1/ViewHidden)
 ## 背景
 iOS开发过程中有这样的需求： 当label 中text 为空时要将label 隐藏并后面的UI组件要顶上来。在安卓中可以设置相应的属性即可，但是在iOS中没有默认的功能实现。为了能够在iOS中也实现这个功能，我们需要知道一些NSLayoutConstraint的知识。
 ## NSLayoutConstraint
