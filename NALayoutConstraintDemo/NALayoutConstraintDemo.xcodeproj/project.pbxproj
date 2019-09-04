@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58860F7721EA490500716516 /* NSLayoutConstraint+Hidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 58860F7421EA490500716516 /* NSLayoutConstraint+Hidden.m */; };
-		58860F7821EA490500716516 /* UIView+Hidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 58860F7521EA490500716516 /* UIView+Hidden.m */; };
+		580ED4D2231FD0A800BD27B2 /* ViewHiddenAndDidNotDisplaySpace in Resources */ = {isa = PBXBuildFile; fileRef = 580ED4D1231FD0A800BD27B2 /* ViewHiddenAndDidNotDisplaySpace */; };
 		58860F9421EA4A1700716516 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58860F7C21EA4A1600716516 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		58860F9521EA4A1700716516 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58860F8521EA4A1600716516 /* ViewController+MASAdditions.m */; };
 		58860F9621EA4A1700716516 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 58860F8921EA4A1600716516 /* MASCompositeConstraint.m */; };
@@ -47,10 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		58860F7321EA490500716516 /* UIView+Hidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hidden.h"; sourceTree = "<group>"; };
-		58860F7421EA490500716516 /* NSLayoutConstraint+Hidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Hidden.m"; sourceTree = "<group>"; };
-		58860F7521EA490500716516 /* UIView+Hidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hidden.m"; sourceTree = "<group>"; };
-		58860F7621EA490500716516 /* NSLayoutConstraint+Hidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Hidden.h"; sourceTree = "<group>"; };
+		580ED4D1231FD0A800BD27B2 /* ViewHiddenAndDidNotDisplaySpace */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewHiddenAndDidNotDisplaySpace; path = ../../ViewHiddenAndDidNotDisplaySpace; sourceTree = "<group>"; };
 		58860F7B21EA4A1600716516 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		58860F7C21EA4A1600716516 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		58860F7D21EA4A1600716516 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -119,17 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58860F7221EA490500716516 /* ViewHiddenAndDidNotDisplaySpace */ = {
-			isa = PBXGroup;
-			children = (
-				58860F7321EA490500716516 /* UIView+Hidden.h */,
-				58860F7521EA490500716516 /* UIView+Hidden.m */,
-				58860F7621EA490500716516 /* NSLayoutConstraint+Hidden.h */,
-				58860F7421EA490500716516 /* NSLayoutConstraint+Hidden.m */,
-			);
-			path = ViewHiddenAndDidNotDisplaySpace;
-			sourceTree = "<group>";
-		};
 		58860F7A21EA4A1600716516 /* masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,8 +170,8 @@
 		58D71EC721E8460A00A8B65F /* NALayoutConstraintDemo */ = {
 			isa = PBXGroup;
 			children = (
+				580ED4D1231FD0A800BD27B2 /* ViewHiddenAndDidNotDisplaySpace */,
 				58860F7A21EA4A1600716516 /* masonry */,
-				58860F7221EA490500716516 /* ViewHiddenAndDidNotDisplaySpace */,
 				58D71EC821E8460A00A8B65F /* AppDelegate.h */,
 				58D71EC921E8460A00A8B65F /* AppDelegate.m */,
 				58D71ECB21E8460A00A8B65F /* ViewController.h */,
@@ -322,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58D71ED521E8460C00A8B65F /* LaunchScreen.storyboard in Resources */,
+				580ED4D2231FD0A800BD27B2 /* ViewHiddenAndDidNotDisplaySpace in Resources */,
 				58D71ED221E8460C00A8B65F /* Assets.xcassets in Resources */,
 				58D71ED021E8460A00A8B65F /* Main.storyboard in Resources */,
 			);
@@ -348,10 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58860F7821EA490500716516 /* UIView+Hidden.m in Sources */,
 				58D71ECD21E8460A00A8B65F /* ViewController.m in Sources */,
 				58860F9821EA4A1700716516 /* MASLayoutConstraint.m in Sources */,
-				58860F7721EA490500716516 /* NSLayoutConstraint+Hidden.m in Sources */,
 				58D71ED821E8460C00A8B65F /* main.m in Sources */,
 				58860F9D21EA4A1700716516 /* MASViewAttribute.m in Sources */,
 				58860F9921EA4A1700716516 /* NSArray+MASAdditions.m in Sources */,
